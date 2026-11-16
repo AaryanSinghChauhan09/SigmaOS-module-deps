@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-module-deps"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS module-deps component - kernel_subsystem"
+
+[lib]
+name = "module_deps"
+path = "src/lib.rs"
